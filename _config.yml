@@ -1,0 +1,9 @@
+name: Onlimii
+description: Personal blog of Junchen Xia (onlimii).
+url: http://www.onlimii.com
+markdown: redcarpet
+# markdown: kramdown
+pygments: true
+paginate: 10
+
+
