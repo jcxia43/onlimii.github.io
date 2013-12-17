@@ -126,9 +126,9 @@ a:hover   {
 }
 
 .post blockquote {
-  background-color: LightGray;
-  border: 1px solid LightGray;
-  border-left-color: black;
+  background-color: white;
+  border:0px solid white;
+  border-left-color: Crimson;
   border-left-width: 5px;
   margin-left: 0.2em;
   margin-top: 0;

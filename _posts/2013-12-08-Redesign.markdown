@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Redesign"
+date: 2013-12-07 13:00
+comments: true
+categories: [programming]
+---
+I pushed all source files of this blog to my blog [repo][blog-repo] last night. The whole site is constructed on [Jekyll][jekyll] now and I also redesigned the UI of the site. Sure I already had a nice-looking blog before, which was built based on [Octopress][octopress] and a responsive and elegant design by [Shashank Mehta][credit], but what I want is more than a fancy site.
+
+##Why not Octopress?
+I am a big fan of static blogs. Blogging through frameworks such as Octopress makes life easier. Everything is just as easy as possible: creating a page, writing posts, deploying the site and etc. And I quite enjoyed what Octopress brought me.
+
+But sooner, I started get interested in Octopress itself: what happened behind the curtains every time I entered `rake preview` or `rake deploy` and why it can support generation of rss feeds, tags, archives and many other things.
+
+Actually, Octopress is a little bit complicated for me, an amateur web developer. It has done so many things for me at the very beginning, and that's what it stands for: **bring you the most convenience and ease to set up your own static blog**.
+
+##Jekyll, a plain text processor
+Since it is too hard for me to figure out the big picture behind the Octopress.
+Jekyll caught my eyes. It's the base framework of Octopress and more lightweight by default. Jekyll let it be possible to start from a scratch: posts, templates, stylish and configuration files. That's all you need to build a static site.
+
+Actually,
+
+>Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (or Textile) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
+
+So Jekyll provides me exactly what I want, it gives me more power than the one Octopress gives me. And to anyone, like me, wants to figure out what happens behind the curtains. Jekyll is obviously the best start. Detailed posts are coming after this one.
+
+##Ambition
+The final result of designing this blog contains:
+
+- Good reading experience
+- Fast loading
+- Less distractions
+
+Apparently, this site still has a long way to go and I will keep updating it and hope sooner or later it can be a right place for me.
+
+>Do one thing and do it right.
+
+
+
+[blog-repo]:https://github.com/onlimii/onlimii.github.io
+[octopress]:http://octopress.org
+[jekyll]:http://jekyllrb.com
+[credit]:http://shashankmehta.in/archive/2012/greyshade.html
