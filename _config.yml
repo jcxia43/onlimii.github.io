@@ -6,5 +6,5 @@ markdown: redcarpet
 pygments: true
 paginate: 10
 disqus: tiom
-
+permalink: /blog/:year/:month/:day/:title
 
