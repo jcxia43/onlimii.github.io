@@ -4,7 +4,7 @@ url: http://www.onlimii.com
 markdown: redcarpet
 # markdown: kramdown
 pygments: true
-paginate: 10
+paginate: 3
 disqus: tiom
 permalink: /blog/:year/:month/:day/:title
 timezone: Asia/Shanghai
