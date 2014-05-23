@@ -3,7 +3,8 @@ description: Personal blog of Junchen Xia (onlimii).
 url: http://www.onlimii.com
 markdown: redcarpet
 # markdown: kramdown
-pygments: true
+# kramdown:
+#   input: GFM
 paginate: 3
 disqus: tiom
 permalink: /blog/:year/:month/:day/:title
