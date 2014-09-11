@@ -7,6 +7,6 @@ markdown: redcarpet
 #   input: GFM
 paginate: 3
 disqus: tiom
-permalink: /blog/:year/:month/:day/:title
+permalink: /posts/:title
 timezone: Asia/Shanghai
 
