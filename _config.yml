@@ -1,12 +1,24 @@
-name: Onlimii
-description: Personal blog of Junchen Xia (onlimii).
+title: JC
+tagline: Personal blog of Junchen Xia (onlimii).
 url: http://www.jcxia.com
+baseurl: /
+paginate:         1
 markdown: redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
 # markdown: kramdown
 # kramdown:
 #   input: GFM
-paginate: 3
 disqus: tiom
 permalink: /posts/:title
 timezone: Asia/Shanghai
 
+author:
+  name:           Junchen Xia
+  url:            https://twitter.com/mdo
+  email:          markdotto@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/poole/poole
