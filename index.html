@@ -3,14 +3,15 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-  <a href="{{ post.url }}" class="post">
-  <div class="post">
-      <span class="post-title">{{ post.title }}</span>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-  </div>
-  </a>
+<div class="body">
+  <div class="archive">
+    {% for post in site.posts %}
+      <div class="archive-item">
+        <span class="post-date archive-date">{{ post.date | date: "%B %e, %Y" }}</span>
+        <a href="{{ post.url }}" class="archive-title">{{ post.title }}</a>
+      </div>
+    </a>
   {% endfor %}
+</div>
 </div>
 

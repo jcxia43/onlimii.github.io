@@ -10,17 +10,21 @@
     <h3 class="masthead-title">
       <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
     </h3>
+
+    <ul class="nav">
+      {% comment %} <li> {% endcomment %}
+      {% comment %}   <a href="/about">About</a> {% endcomment %}
+      {% comment %} </li> {% endcomment %}
+      <li>
+        <a href="/feed.xml">RSS feed</a>
+      </li>
+    </ul>
   </header>
 
-  <main>
-  {{ content }}
-  </main>
+  <hr>
 
-  <footer class="footer">
-    <small>
-      Junchen Xia &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-    </small>
-  </footer>
+  {{ content }}
+
 </div>
 
 <script>
