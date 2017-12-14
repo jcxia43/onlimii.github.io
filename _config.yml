@@ -1,7 +1,7 @@
 title: "JC writes"
 tagline: Personal blog of Junchen Xia, aka JC.
 url: http://jcxia.com
-baseurl: /
+baseurl: "/"
 paginate: 1
 markdown: redcarpet
 redcarpet:
