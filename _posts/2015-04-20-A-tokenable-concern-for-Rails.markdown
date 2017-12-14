@@ -24,24 +24,26 @@ Ruby has a built-in library to do the dirty work for us, which is [SecureRandom]
 ### Create a concern
 Here, for example, using the `SecureRandom.urlsafe_base64`, we can write a simple concern for models, which guarantees to generate a unique token when instantiating models.
 
-	module Tokenable
-	  extend ActiveSupport::Concern
+``` ruby
+module Tokenable
+  extend ActiveSupport::Concern
 
-	  included do
-	    before_create :generate_token
-	  end
+  included do
+    before_create :generate_token
+  end
 
-	  protected
+  protected
 
-	  def generate_token
-	    # make sure the random token not existed in current table
-	    self.token = loop do
-	      random_token = SecureRandom.urlsafe_base64
-	      break random_token unless self.class.exists?(token: random_token)
-	    end
-	  end
+  def generate_token
+    # make sure the random token not existed in current table
+    self.token = loop do
+      random_token = SecureRandom.urlsafe_base64
+      break random_token unless self.class.exists?(token: random_token)
+    end
+  end
 
-	end
+end
+```
 
 The concern above should be stored in `app/models/concerns` and works for models with a column name `token`. To use the concern, simply including this concert into the model and you are good to go.
 
