@@ -2,13 +2,7 @@ title: "JC writes"
 tagline: Personal blog of Junchen Xia, aka JC.
 url: http://jcxia.com
 baseurl: "/"
-paginate: 1
-markdown: redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-# markdown: kramdown
-# kramdown:
-#   input: GFM
+markdown: kramdown
 disqus: tiom
 permalink: /posts/:title
 timezone: Asia/Shanghai
