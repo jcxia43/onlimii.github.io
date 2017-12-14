@@ -1,8 +1,8 @@
 title: "JC writes"
 tagline: Personal blog of Junchen Xia, aka JC.
-url: http://www.jcxia.com
+url: http://jcxia.com
 baseurl: /
-paginate:         1
+paginate: 1
 markdown: redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
@@ -14,11 +14,6 @@ permalink: /posts/:title
 timezone: Asia/Shanghai
 
 author:
-  name:           Junchen Xia
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
-
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
+  name: Junchen Xia
+  url: https://twitter.com/jcxia43
+  email: xjconlyme@gmail.com
