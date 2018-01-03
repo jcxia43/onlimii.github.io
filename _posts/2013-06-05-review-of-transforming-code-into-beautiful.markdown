@@ -6,7 +6,7 @@ tags: [programming, python]
 ---
 Several days ago, I watched a video called [Transforming Code into Beautiful, Idiomatic Python][video] on twitter, tweeted by [@pythoncn][pythoncn]. This video was given by [@raymondh][raymond], who is a Python core developer and a very attractive programmer and teacher. This review almost covers everything I learnt from the video. Thank you, Mr. Hettinger.
 
-##Notes
+## Notes
 
 *Notification: everything listed here is based on Python 2.7, something may be a little different in Python 3, for example, `range` in Python 3 is actually `xrange` in Python 2.7*
 
