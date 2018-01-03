@@ -3,9 +3,9 @@ tagline: Personal blog of Junchen Xia, aka JC.
 url: http://jcxia.com
 baseurl: "/"
 markdown: kramdown
-disqus: tiom
 permalink: /posts/:title
 timezone: Asia/Shanghai
+disqus: jcxia-blog
 
 author:
   name: Junchen Xia
