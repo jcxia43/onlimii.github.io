@@ -2,8 +2,7 @@
 layout: post
 title: "Past two months"
 date: 2013-08-26 20:20
-comments: true
-categories: [programming, life]
+tags: [programming, life]
 ---
 For the past two and a half months, I worked as an intern in the Intel Shanghai Opensource Technology Center (OTC), the Tizen Web QA team. Yep, that [Tizen][tizen]. This post aims to conclude my 2.5 months work.
 

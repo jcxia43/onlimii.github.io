@@ -2,8 +2,7 @@
 layout: post
 title: "Redesign"
 date: 2013-12-07 13:00
-comments: true
-categories: [programming]
+tags: [programming]
 ---
 I pushed all source files of this blog to my blog [repo][blog-repo] last night. The whole site is constructed on [Jekyll][jekyll] now and I also redesigned the UI of the site. Sure I already had a nice-looking blog before, which was built based on [Octopress][octopress] and a responsive and elegant design by [Shashank Mehta][credit], but what I want is more than a fancy site.
 

@@ -2,8 +2,7 @@
 layout: post
 title: "Review of a Python Video"
 date: 2013-06-05 21:39
-comments: true
-categories: [programming, python]
+tags: [programming, python]
 ---
 Several days ago, I watched a video called [Transforming Code into Beautiful, Idiomatic Python][video] on twitter, tweeted by [@pythoncn][pythoncn]. This video was given by [@raymondh][raymond], who is a Python core developer and a very attractive programmer and teacher. This review almost covers everything I learnt from the video. Thank you, Mr. Hettinger.
 

@@ -2,8 +2,7 @@
 layout: post
 title: "Hello world."
 date: 2013-05-07 17:10
-comments: true
-categories: Intro
+tags: Intro
 ---
 作为一个伪程序员，习惯在新的开始写一个Hello world。
 

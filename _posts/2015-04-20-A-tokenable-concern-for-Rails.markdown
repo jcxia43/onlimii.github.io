@@ -2,8 +2,7 @@
 layout: post
 title: "A tokenable concern for Rails"
 date: 2015-04-20 20:44
-comments: true
-categories: [rails coding]
+tags: [rails coding]
 ---
 
 ### Hi I’m your token: `abc123`

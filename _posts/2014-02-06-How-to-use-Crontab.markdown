@@ -2,8 +2,7 @@
 layout: post
 title: "How to use crontab"
 date: 2014-03-02 22:22
-comments: true
-categories: [tips]
+tags: [tips]
 ---
 This is a short snippet about how to use the UNIX program [Crontab](http://en.wikipedia.org/wiki/Cron).
 

@@ -2,8 +2,7 @@
 layout: post
 title: "lapacke和CBLAS学习小记(1)"
 date: 2013-05-16 20:34
-comments: true
-categories: [programming, setup, lapacke, blas]
+tags: [programming, setup, lapacke, blas]
 ---
 这段时间由于项目的需要，因此需要学习并运用Lapack以及BLAS这两个线性代数的运算库。鉴于这两个库都是Fortran编写的，而导师希望项目可以使用C语言，因此，项目将要实际使用到的是Lapacke和CBLAS这两个C语言接口库。
 
