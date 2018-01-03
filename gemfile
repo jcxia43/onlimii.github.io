@@ -4,5 +4,7 @@ ruby '2.4.2'
 
 gem 'jekyll'
 gem 'kramdown'
+gem 'aws-sdk'
+gem 'rake'
 
 
