@@ -6,7 +6,7 @@ markdown: kramdown
 permalink: date
 timezone: Asia/Shanghai
 disqus: jcxia-blog
-comments: true
+comments: false
 
 author:
   name: Junchen Xia
