@@ -21,6 +21,7 @@ html {
 body {
   padding: 2rem 1.5rem;
   line-height: 1.75;
+  letter-spacing: 0rem;
   color: #555;
   background-color: #fff
 }
@@ -455,7 +456,8 @@ iframe.twitter-tweet.twitter-tweet-rendered {
 }
 
 .archive {
-  margin-bottom: 3rem
+  line-height: 1.5;
+  margin-bottom: 3rem;
 }
 
 .archive-item {
