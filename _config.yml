@@ -3,7 +3,7 @@ tagline: Personal blog of Junchen Xia aka JC.
 url: https://jcxia.com
 baseurl: "/"
 markdown: kramdown
-permalink: date
+permalink: "blog/:title"
 timezone: Asia/Shanghai
 disqus: jcxia-blog
 comments: false
