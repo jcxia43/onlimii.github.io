@@ -4,7 +4,10 @@ ruby '2.4.2'
 
 gem 'jekyll'
 gem 'kramdown'
-gem 'aws-sdk'
 gem 'rake'
+
+group :jekyll_plugins do
+  gem "jekyll-deploy", path: "~/code/jekyll-deploy"
+end
 
 
