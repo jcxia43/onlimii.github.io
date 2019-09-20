@@ -1,5 +1,5 @@
 title: "JC writes"
-tagline: Personal blog of Junchen Xia aka JC.
+tagline: Personal blog JC.
 url: https://jcxia.com
 baseurl: "/"
 markdown: kramdown
@@ -9,6 +9,5 @@ disqus: jcxia-blog
 comments: false
 
 author:
-  name: Junchen Xia
-  url: https://twitter.com/jcxia43
-  email: xjconlyme@gmail.com
+  name: JC
+  url: https://twitter.com/justcosine

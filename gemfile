@@ -1,13 +1,13 @@
 source 'https://rubygems.org/'
 
-ruby '2.4.2'
+ruby '~> 2.6.3'
 
 gem 'jekyll'
 gem 'kramdown'
 gem 'rake'
 
-group :jekyll_plugins do
-  gem "jekyll-deploy", path: "~/code/jekyll-deploy"
-end
+# group :jekyll_plugins do
+#   gem "jekyll-deploy", path: "~/code/jekyll-deploy"
+# end
 
 
